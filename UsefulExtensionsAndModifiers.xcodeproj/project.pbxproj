@@ -12,6 +12,11 @@
 		100B978E29B12D4A00D29ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100B978D29B12D4A00D29ED7 /* Assets.xcassets */; };
 		100B979129B12D4A00D29ED7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100B979029B12D4A00D29ED7 /* Preview Assets.xcassets */; };
 		100B979D29B12DD200D29ED7 /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100B979C29B12DD200D29ED7 /* CenterModifier.swift */; };
+		100B979F29B1309200D29ED7 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100B979E29B1309200D29ED7 /* Codable.swift */; };
+		100B97A429B1369100D29ED7 /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100B97A329B1369100D29ED7 /* Directory.swift */; };
+		100B97A629B1370300D29ED7 /* StringArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100B97A529B1370300D29ED7 /* StringArray.swift */; };
+		100B97A929B1380800D29ED7 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100B97A829B1380800D29ED7 /* Color.swift */; };
+		100B97AC29B138DC00D29ED7 /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100B97AB29B138DC00D29ED7 /* HideKeyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		100B978D29B12D4A00D29ED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		100B979029B12D4A00D29ED7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		100B979C29B12DD200D29ED7 /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
+		100B979E29B1309200D29ED7 /* Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
+		100B97A329B1369100D29ED7 /* Directory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directory.swift; sourceTree = "<group>"; };
+		100B97A529B1370300D29ED7 /* StringArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringArray.swift; sourceTree = "<group>"; };
+		100B97A829B1380800D29ED7 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		100B97AB29B138DC00D29ED7 /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +83,9 @@
 		100B979729B12D5E00D29ED7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				100B97AA29B138CA00D29ED7 /* View */,
+				100B97A729B137FD00D29ED7 /* Codable */,
+				100B97A029B1365F00D29ED7 /* FileManager */,
 				100B979929B12D7400D29ED7 /* Bundle */,
 			);
 			path = Extensions;
@@ -89,6 +102,8 @@
 		100B979929B12D7400D29ED7 /* Bundle */ = {
 			isa = PBXGroup;
 			children = (
+				100B979E29B1309200D29ED7 /* Codable.swift */,
+				100B97A529B1370300D29ED7 /* StringArray.swift */,
 			);
 			path = Bundle;
 			sourceTree = "<group>";
@@ -108,6 +123,30 @@
 				100B979C29B12DD200D29ED7 /* CenterModifier.swift */,
 			);
 			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		100B97A029B1365F00D29ED7 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				100B97A329B1369100D29ED7 /* Directory.swift */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		100B97A729B137FD00D29ED7 /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+				100B97A829B1380800D29ED7 /* Color.swift */,
+			);
+			path = Codable;
+			sourceTree = "<group>";
+		};
+		100B97AA29B138CA00D29ED7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				100B97AB29B138DC00D29ED7 /* HideKeyboard.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100B97AC29B138DC00D29ED7 /* HideKeyboard.swift in Sources */,
+				100B97A629B1370300D29ED7 /* StringArray.swift in Sources */,
 				100B979D29B12DD200D29ED7 /* CenterModifier.swift in Sources */,
+				100B97A929B1380800D29ED7 /* Color.swift in Sources */,
 				100B978C29B12D4900D29ED7 /* ContentView.swift in Sources */,
+				100B979F29B1309200D29ED7 /* Codable.swift in Sources */,
 				100B978A29B12D4900D29ED7 /* UsefulExtensionsAndModifiersApp.swift in Sources */,
+				100B97A429B1369100D29ED7 /* Directory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
