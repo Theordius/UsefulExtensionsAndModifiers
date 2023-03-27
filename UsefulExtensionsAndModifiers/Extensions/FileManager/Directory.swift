@@ -5,6 +5,10 @@
 //  Created by Rafał Gęsior on 02/03/2023.
 //
 
+/*
+ extension to get user filepath from the userDomainMask
+ */
+
 import Foundation
 
 extension FileManager {
