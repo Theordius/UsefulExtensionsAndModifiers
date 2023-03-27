@@ -17,6 +17,8 @@
 		100B97A629B1370300D29ED7 /* StringArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100B97A529B1370300D29ED7 /* StringArray.swift */; };
 		100B97A929B1380800D29ED7 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100B97A829B1380800D29ED7 /* Color.swift */; };
 		100B97AC29B138DC00D29ED7 /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100B97AB29B138DC00D29ED7 /* HideKeyboard.swift */; };
+		1046D47D29D1C54B005DD21E /* Collection_CountingOddNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046D47C29D1C54B005DD21E /* Collection_CountingOddNumbers.swift */; };
+		1046D48229D1C760005DD21E /* Array_DifferencesBetweenArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046D48129D1C760005DD21E /* Array_DifferencesBetweenArrays.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		100B97A529B1370300D29ED7 /* StringArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringArray.swift; sourceTree = "<group>"; };
 		100B97A829B1380800D29ED7 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		100B97AB29B138DC00D29ED7 /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
+		1046D47C29D1C54B005DD21E /* Collection_CountingOddNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection_CountingOddNumbers.swift; sourceTree = "<group>"; };
+		1046D48129D1C760005DD21E /* Array_DifferencesBetweenArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array_DifferencesBetweenArrays.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 		100B979729B12D5E00D29ED7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				1046D48029D1C72C005DD21E /* Array */,
+				1046D47B29D1C4F9005DD21E /* Collection */,
 				100B97AA29B138CA00D29ED7 /* View */,
 				100B97A729B137FD00D29ED7 /* Codable */,
 				100B97A029B1365F00D29ED7 /* FileManager */,
@@ -147,6 +153,22 @@
 				100B97AB29B138DC00D29ED7 /* HideKeyboard.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		1046D47B29D1C4F9005DD21E /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				1046D47C29D1C54B005DD21E /* Collection_CountingOddNumbers.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		1046D48029D1C72C005DD21E /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				1046D48129D1C760005DD21E /* Array_DifferencesBetweenArrays.swift */,
+			);
+			path = Array;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,9 +242,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				100B97AC29B138DC00D29ED7 /* HideKeyboard.swift in Sources */,
+				1046D48229D1C760005DD21E /* Array_DifferencesBetweenArrays.swift in Sources */,
 				100B97A629B1370300D29ED7 /* StringArray.swift in Sources */,
 				100B979D29B12DD200D29ED7 /* CenterModifier.swift in Sources */,
 				100B97A929B1380800D29ED7 /* Color.swift in Sources */,
+				1046D47D29D1C54B005DD21E /* Collection_CountingOddNumbers.swift in Sources */,
 				100B978C29B12D4900D29ED7 /* ContentView.swift in Sources */,
 				100B979F29B1309200D29ED7 /* Codable.swift in Sources */,
 				100B978A29B12D4900D29ED7 /* UsefulExtensionsAndModifiersApp.swift in Sources */,
