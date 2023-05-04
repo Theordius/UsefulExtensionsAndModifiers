@@ -19,6 +19,7 @@
 		100B97AC29B138DC00D29ED7 /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100B97AB29B138DC00D29ED7 /* HideKeyboard.swift */; };
 		1046D47D29D1C54B005DD21E /* Collection_CountingOddNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046D47C29D1C54B005DD21E /* Collection_CountingOddNumbers.swift */; };
 		1046D48229D1C760005DD21E /* Array_DifferencesBetweenArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046D48129D1C760005DD21E /* Array_DifferencesBetweenArrays.swift */; };
+		1059C0632A03B5F20011855D /* LocalizedError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1059C0622A03B5F20011855D /* LocalizedError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		100B97AB29B138DC00D29ED7 /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
 		1046D47C29D1C54B005DD21E /* Collection_CountingOddNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection_CountingOddNumbers.swift; sourceTree = "<group>"; };
 		1046D48129D1C760005DD21E /* Array_DifferencesBetweenArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array_DifferencesBetweenArrays.swift; sourceTree = "<group>"; };
+		1059C0622A03B5F20011855D /* LocalizedError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				100B979A29B12D8600D29ED7 /* App */,
 				100B979829B12D6A00D29ED7 /* Modifiers */,
 				100B979729B12D5E00D29ED7 /* Extensions */,
+				1059C0612A03B5D70011855D /* Error */,
 				100B978D29B12D4A00D29ED7 /* Assets.xcassets */,
 				100B978F29B12D4A00D29ED7 /* Preview Content */,
 			);
@@ -171,6 +174,14 @@
 			path = Array;
 			sourceTree = "<group>";
 		};
+		1059C0612A03B5D70011855D /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				1059C0622A03B5F20011855D /* LocalizedError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -245,6 +256,7 @@
 				1046D48229D1C760005DD21E /* Array_DifferencesBetweenArrays.swift in Sources */,
 				100B97A629B1370300D29ED7 /* StringArray.swift in Sources */,
 				100B979D29B12DD200D29ED7 /* CenterModifier.swift in Sources */,
+				1059C0632A03B5F20011855D /* LocalizedError.swift in Sources */,
 				100B97A929B1380800D29ED7 /* Color.swift in Sources */,
 				1046D47D29D1C54B005DD21E /* Collection_CountingOddNumbers.swift in Sources */,
 				100B978C29B12D4900D29ED7 /* ContentView.swift in Sources */,
