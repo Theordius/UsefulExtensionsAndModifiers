@@ -20,6 +20,7 @@
 		1046D47D29D1C54B005DD21E /* Collection_CountingOddNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046D47C29D1C54B005DD21E /* Collection_CountingOddNumbers.swift */; };
 		1046D48229D1C760005DD21E /* Array_DifferencesBetweenArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046D48129D1C760005DD21E /* Array_DifferencesBetweenArrays.swift */; };
 		1059C0632A03B5F20011855D /* LocalizedError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1059C0622A03B5F20011855D /* LocalizedError.swift */; };
+		10A2F3572BBC300D00418E13 /* StringPasswordValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A2F3562BBC300D00418E13 /* StringPasswordValidation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		1046D47C29D1C54B005DD21E /* Collection_CountingOddNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection_CountingOddNumbers.swift; sourceTree = "<group>"; };
 		1046D48129D1C760005DD21E /* Array_DifferencesBetweenArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array_DifferencesBetweenArrays.swift; sourceTree = "<group>"; };
 		1059C0622A03B5F20011855D /* LocalizedError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedError.swift; sourceTree = "<group>"; };
+		10A2F3562BBC300D00418E13 /* StringPasswordValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPasswordValidation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		100B979729B12D5E00D29ED7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				10A2F3552BBC2FE400418E13 /* String */,
 				1046D48029D1C72C005DD21E /* Array */,
 				1046D47B29D1C4F9005DD21E /* Collection */,
 				100B97AA29B138CA00D29ED7 /* View */,
@@ -182,6 +185,14 @@
 			path = Error;
 			sourceTree = "<group>";
 		};
+		10A2F3552BBC2FE400418E13 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				10A2F3562BBC300D00418E13 /* StringPasswordValidation.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -258,6 +269,7 @@
 				100B979D29B12DD200D29ED7 /* CenterModifier.swift in Sources */,
 				1059C0632A03B5F20011855D /* LocalizedError.swift in Sources */,
 				100B97A929B1380800D29ED7 /* Color.swift in Sources */,
+				10A2F3572BBC300D00418E13 /* StringPasswordValidation.swift in Sources */,
 				1046D47D29D1C54B005DD21E /* Collection_CountingOddNumbers.swift in Sources */,
 				100B978C29B12D4900D29ED7 /* ContentView.swift in Sources */,
 				100B979F29B1309200D29ED7 /* Codable.swift in Sources */,
