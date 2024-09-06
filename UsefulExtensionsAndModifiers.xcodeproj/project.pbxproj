@@ -20,6 +20,7 @@
 		1046D47D29D1C54B005DD21E /* Collection_CountingOddNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046D47C29D1C54B005DD21E /* Collection_CountingOddNumbers.swift */; };
 		1046D48229D1C760005DD21E /* Array_DifferencesBetweenArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046D48129D1C760005DD21E /* Array_DifferencesBetweenArrays.swift */; };
 		1059C0632A03B5F20011855D /* LocalizedError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1059C0622A03B5F20011855D /* LocalizedError.swift */; };
+		106178B52C8B8589005F8245 /* AddSpaceBetweenCamelCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106178B42C8B8589005F8245 /* AddSpaceBetweenCamelCases.swift */; };
 		10A2F3572BBC300D00418E13 /* StringPasswordValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A2F3562BBC300D00418E13 /* StringPasswordValidation.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		1046D47C29D1C54B005DD21E /* Collection_CountingOddNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection_CountingOddNumbers.swift; sourceTree = "<group>"; };
 		1046D48129D1C760005DD21E /* Array_DifferencesBetweenArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array_DifferencesBetweenArrays.swift; sourceTree = "<group>"; };
 		1059C0622A03B5F20011855D /* LocalizedError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedError.swift; sourceTree = "<group>"; };
+		106178B42C8B8589005F8245 /* AddSpaceBetweenCamelCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSpaceBetweenCamelCases.swift; sourceTree = "<group>"; };
 		10A2F3562BBC300D00418E13 /* StringPasswordValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPasswordValidation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				10A2F3562BBC300D00418E13 /* StringPasswordValidation.swift */,
+				106178B42C8B8589005F8245 /* AddSpaceBetweenCamelCases.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				100B979F29B1309200D29ED7 /* Codable.swift in Sources */,
 				100B978A29B12D4900D29ED7 /* UsefulExtensionsAndModifiersApp.swift in Sources */,
 				100B97A429B1369100D29ED7 /* Directory.swift in Sources */,
+				106178B52C8B8589005F8245 /* AddSpaceBetweenCamelCases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,12 +415,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pl.rgkonsulting.UsefulExtensionsAndModifiers;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.theosoft.UsefulExtensionsAndModifiers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -440,12 +445,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pl.rgkonsulting.UsefulExtensionsAndModifiers;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.theosoft.UsefulExtensionsAndModifiers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
