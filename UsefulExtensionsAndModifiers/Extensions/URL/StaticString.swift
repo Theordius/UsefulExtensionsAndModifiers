@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// URL extension that allows to use url adress without force unwrapping
+/// URL extension that allows to use url address without force unwrapping
 /// ex. let url = URL("https://apple.com")
 
 extension URL {

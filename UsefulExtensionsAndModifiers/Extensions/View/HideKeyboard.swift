@@ -9,9 +9,6 @@
 This one is quite self explementory, simple view extension that makes keyboard disappear after action is called
 */
 
-
-
-
 import SwiftUI
 
 extension View {

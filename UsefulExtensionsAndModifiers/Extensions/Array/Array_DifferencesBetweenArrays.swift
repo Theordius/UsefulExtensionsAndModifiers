@@ -19,7 +19,7 @@ extension Array where Element: Hashable {
     }
 }
 
-/// Use examle:
+/// Use example:
 /// let array1 = ["Rufus", "Waldek", "Ewelina"]
 /// let array2 = ["Iga", "Ziomek", "John]
 /// let difference = array1.difference(from: array2)
