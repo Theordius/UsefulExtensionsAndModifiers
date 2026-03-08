@@ -1,5 +1,5 @@
 //
-//  Color.swift
+//  Color+Codable.swift
 //  UsefulExtensionsAndModifiers
 //
 //  Created by Rafał Gęsior on 02/03/2023.
@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-extension Color: Codable {
+extension Color: @retroactive Encodable, @retroactive Decodable {
     enum CodingKeys: CodingKey {
         case red, green, blue, alpha
     }

@@ -1,12 +1,12 @@
 //
-//  HideKeyboard.swift
+//  View+HideKeyboard.swift
 //  UsefulExtensionsAndModifiers
 //
 //  Created by Rafał Gęsior on 02/03/2023.
 //
 
 /*
-This one is quite self explementory, simple view extension that makes keyboard disappear after action is called
+ Simple view extension that makes the keyboard disappear after the action is called.
 */
 
 import SwiftUI

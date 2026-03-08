@@ -1,5 +1,5 @@
 //
-//  AttributedString.swift
+//  AttributedString+StaticString.swift
 //  UsefulExtensionsAndModifiers
 //
 //  Created by Rafał Gęsior on 30/01/2026.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// Attributed String extension that allows to show an error if convertion is unsucessful.
+/// Attributed String extension that allows to show an error if conversion is unsuccessful.
 extension AttributedString {
     init(_ staticString: StaticString) {
         let string = String(describing: staticString)

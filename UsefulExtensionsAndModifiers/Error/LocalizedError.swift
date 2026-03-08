@@ -9,7 +9,7 @@ import Foundation
 
 /// Useful extension to show more detailed description of the error in the console box
 extension LocalizedError {
-    var errorDesription: String? {
+    var errorDescription: String? {
         return "\(self)"
     }
 }

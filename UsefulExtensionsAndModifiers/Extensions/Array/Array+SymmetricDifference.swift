@@ -1,5 +1,5 @@
 //
-//  Array_DifferencesBetweenArrays.swift
+//  Array+SymmetricDifference.swift
 //  UsefulExtensionsAndModifiers
 //
 //  Created by Rafał Gęsior on 27/03/2023.
@@ -21,5 +21,5 @@ extension Array where Element: Hashable {
 
 /// Use example:
 /// let array1 = ["Rufus", "Waldek", "Ewelina"]
-/// let array2 = ["Iga", "Ziomek", "John]
+/// let array2 = ["Iga", "Ziomek", "John"]
 /// let difference = array1.difference(from: array2)

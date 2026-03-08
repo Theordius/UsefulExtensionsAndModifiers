@@ -1,5 +1,5 @@
 //
-//  AddSpaceBetweenCamelCases.swift
+//  String+CamelCaseSpacing.swift
 //  UsefulExtensionsAndModifiers
 //
 //  Created by Rafał Gęsior on 06/09/2024.

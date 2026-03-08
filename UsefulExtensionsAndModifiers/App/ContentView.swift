@@ -9,20 +9,40 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            
-            Text("Hello, world!")
-                .titleStyle()
+        NavigationStack {
+            List(ShowcaseCategory.allCases) { category in
+                NavigationLink(value: category) {
+                    CategoryRow(category: category)
+                }
+            }
+            .navigationTitle("Extensions & Modifiers")
+            .navigationDestination(for: ShowcaseCategory.self) { category in
+                CategoryDetailView(category: category)
+            }
         }
-        .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+struct CategoryRow: View {
+    let category: ShowcaseCategory
+
+    var body: some View {
+        Label {
+            HStack {
+                Text(category.displayName)
+
+                Spacer()
+
+                Text(category.items.count, format: .number)
+                    .foregroundStyle(.secondary)
+            }
+        } icon: {
+            Image(systemName: category.icon)
+                .foregroundStyle(.primary)
+        }
     }
+}
+
+#Preview {
+    ContentView()
 }

@@ -1,5 +1,5 @@
 //
-//  TitleStyle.swift
+//  View+TitleStyle.swift
 //  UsefulExtensionsAndModifiers
 //
 //  Created by Rafał Gęsior on 31/01/2026.
@@ -13,7 +13,7 @@ extension View {
     func titleStyle() -> some View {
         self
             .font(.largeTitle)
-            .fontWeight(.black)
+            .bold()
             .foregroundStyle(.indigo)
     }
 }

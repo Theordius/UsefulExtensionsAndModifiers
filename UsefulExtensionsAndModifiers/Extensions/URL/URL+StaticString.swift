@@ -1,5 +1,5 @@
 //
-//  StaticString.swift
+//  URL+StaticString.swift
 //  UsefulExtensionsAndModifiers
 //
 //  Created by Rafał Gęsior on 30/01/2026.

@@ -1,5 +1,5 @@
 //
-//  StringArray.swift
+//  Bundle+StringArray.swift
 //  UsefulExtensionsAndModifiers
 //
 //  Created by Rafał Gęsior on 02/03/2023.
@@ -12,7 +12,7 @@ extension Bundle {
         guard let url = self.url(forResource: file, withExtension: nil) else {
             fatalError("Failed to locate \(file) in bundle.")
         }
-        guard let string = try? String(contentsOf: url) else {
+        guard let string = try? String(contentsOf: url, encoding: .utf8) else {
             fatalError("Failed to locate \(file) in bundle.")
         }
         return string.trimmingCharacters(in: .whitespacesAndNewlines).components(separatedBy: .newlines)

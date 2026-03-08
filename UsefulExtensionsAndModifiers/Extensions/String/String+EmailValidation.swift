@@ -1,11 +1,11 @@
 //
-//  StringPasswordValidation.swift
+//  String+EmailValidation.swift
 //  UsefulExtensionsAndModifiers
 //
 //  Created by Rafał Gęsior on 02/04/2024.
 //
 
-/// Useful extension to check if typed in value is valid email adress
+/// Useful extension to check if typed in value is a valid email address
 import Foundation
 
 extension String {
