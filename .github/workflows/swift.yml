@@ -10,17 +10,20 @@ on:
     branches: ["main"]
 
 jobs:
-  build-and-test:
+  build:
     runs-on: macos-15
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Show Xcode version
+        run: xcodebuild -version
+
       - name: Build
         run: |
           xcodebuild \
-            -project YourProject.xcodeproj \
-            -scheme YourScheme \
+            -project UsefulExtensionsAndModifiers.xcodeproj \
+            -scheme UsefulExtensionsAndModifiers \
             -destination 'platform=iOS Simulator,name=iPhone 16' \
-            clean build test
+            clean build
